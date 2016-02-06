@@ -50,7 +50,7 @@ public class test {
 		btnNewButton.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				MessageDialog.openInformation(shell, "Saluti", "ciaoMondo");
+				MessageDialog.openInformation(shell, "Saluti", "ciaoMondo ciao");
 			}
 		});
 		btnNewButton.setBounds(35, 80, 75, 25);
